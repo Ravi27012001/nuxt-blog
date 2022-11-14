@@ -31,7 +31,7 @@
         ></textarea>
       </span>
     </div>
-    <button class="mt-4 bg-red-700 p-2 rounded-md text-white hover:bg-red-500"  @click="Submitt">
+    <button class="mt-4 bg-red-700 p-2 rounded-md text-white hover:bg-red-500" @click="Submitt">
       Submit
     </button>
 <br/>
@@ -53,7 +53,6 @@ let NoteData = ref<{id:number,NoteHeading:string,NoteContent:string}[]>([
   
  ]); 
 
- NoteData.value = store.getMyData
  function Submitt(){ //SubmitHandler
   if(NoteHeading.value.length == 0 || NoteContent.value.length == 0){  //If input is empty alert
     alert("fill the data")
