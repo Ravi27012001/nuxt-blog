@@ -31,6 +31,9 @@ import { useDataStore } from "./useStore";
 const store = useDataStore(); //import data from store
 const li = store.getMyData;
 
+definePageMeta({
+  middleware:"test",
+})
 onMounted(() => {
   console.log(li[1]);
 });
