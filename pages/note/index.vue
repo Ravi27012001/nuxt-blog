@@ -44,7 +44,7 @@
 <script setup lang="ts">
 import {useDataStore} from './useStore' ; 
 //  import {onMounted} from "vue";
-let idd = ref<number>(2);
+let idd = ref<number>(0);
 let NoteHeading = ref<string>("");
 let NoteContent = ref<string>("");
 const store=useDataStore() //getting data from my store
