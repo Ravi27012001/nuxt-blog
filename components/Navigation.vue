@@ -37,11 +37,11 @@
 </template>
 <style>
 .bodyy {
-  min-height: 82.2vh;
+  min-height: 81vh;
   width: 100%;
 }
 .nav{
-  min-height:82.2vh;
+  min-height:81vh;
 
 }
  
